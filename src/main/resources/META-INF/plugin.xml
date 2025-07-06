@@ -10,6 +10,17 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
 
+
+
+    <actions>
+        <action
+                id="CreateFeatureFolders"
+                class="com.mhdn.fluttercleanarch.CreateFeatureFoldersAction"
+                text="Create Clean Architecture Folders"
+                description="Create Clean Architecture folder structure here">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
